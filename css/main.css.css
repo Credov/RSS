@@ -1,0 +1,136 @@
+body {
+	width: 1600px;
+	padding: 0;
+	margin: 0 auto;
+	}
+/*.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+.tac {text-align: center;}
+.cg {color: #4c4c4c;}
+.cw {color: #fff;}
+.cy {color: #cc9900;}
+.lr {font-family: "Lato-Regular";}
+.ggb {font-family: "GentiumBookBasic";}
+.yo {font-family: "YesevaOne"; font-weight: normal;}
+.f14 {font-size: 14px;}
+.f16 {font-size: 16px;}
+.f18 {font-size: 18px;}
+.f21 {font-size: 21px;}
+.f25 {font-size: 25px;}
+.f36 {font-size: 36px;}
+.f96 {font-size: 96px;}
+div {
+	box-sizing: border-box;
+}*/
+header {
+	background: url(../img/HeaderBG.jpg) no-repeat center top / cover;
+	height: 1064px;
+	width: 1600px;
+}
+.container {
+	width: 1600px;
+	margin: 0 auto;
+}
+.logo {
+	margin-left: 204px;
+	margin-top: 31px;
+}
+.sele {
+	margin-left: 202px;
+  margin-top: 25px;
+}
+
+.menu {
+	float: right;
+	padding: 0;
+	margin: 0;
+	display: block;
+	margin-top: 20px;
+	font-family: "Lato-Medium";
+}
+
+.menu li {
+	float: left;
+	display: block;
+	margin-left: 20px;
+}
+.menu a {
+	color: #fff;
+	text-decoration: none;
+}
+.menu ul:last-child {
+margin-right: 200px;
+}
+.menu li:not(:last-child) {
+	margin-right: 50px;
+}
+h1 {
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: Myriad;
+	font-size: 72px;
+	padding-top: 278px;
+	margin-bottom: 3px;
+}
+.p_header {
+	text-align: center;
+	color: #fff;
+	font-family: Georgia;
+	font-style: italic;
+	font-size: 32px;
+	margin: 0;
+	line-height: 48px;
+}
+.button{
+	background: 
+	url(../img/LoginBG.png) no-repeat left top / cover,
+	url(../img/RegisterBG.png) no-repeat top / cover;
+	background-size: 810px 120px, 100% 120px;
+	height: 120px;
+	margin-top: 339px;
+}
+.button a {
+	text-decoration: none;
+	color: #fff;
+	font-family: "Lato-Medium";
+	text-transform: uppercase;
+	font-size: 22px; 
+	}
+.login {
+	float: left; 
+	padding: 46px 259px 47px 470px;  
+}
+.register {
+	float: right;
+  padding: 45px 449px 48px 254px;
+}
+.h3_domen{
+	text-align: center;
+	font-size: 24px;
+	font-family: "Lato-Heavy";
+	padding-top: 61px;
+}
+
+
+
+
+
+
+
+
+/* {
+	border: 1px solid red;
+}*
+/*</div>
+			<div class="butt">
+				<div class="butt1">
+					<a href="#">book a table</a>
+				</div>
+				<div class="butt2">
+					<a href="#">see the menu</a>
+				</div> */
