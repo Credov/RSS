@@ -3,6 +3,9 @@ body {
 	margin: 0 auto;
 	width: 1600px;
 	}
+.f  {
+	display: flex;
+}
 /*.clearfix:after {
 	content:'';
 	display: table;
@@ -165,15 +168,12 @@ h1 {
   margin-right: 10px;
 	outline: none;
 }
-.f  {
-	display: flex;
-}
+
 .dom_flex{
 	flex-direction: column;
 	width: 888px;
 	height: 194px;
-	margin-left: 356px;
-	margin-top: 39px;
+	margin: 39px 0 90px 356px;
 	border: 1px solid #d9d9d9;
 }
 .dom_mid_flex1, .dom_mid_flex2 {
@@ -241,11 +241,60 @@ h1 {
   border-top: 1px solid #d9d9d9;
 }
 
+.packages {
+	height: 765px;
+	background: url(../img/PackagesBG.jpg) no-repeat center top / cover;
+	height: 380px;
+}
 
+.packages_field {
+	height: 565px;
+	width: 1200px;
+	justify-content: space-between;
+	margin: 100px auto;
+}
 
-/* {
+.packages_basic, .packages_normal, .packages_big, .packages_biggest {
+width: 21.2%;
+background-color: #fff;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.packages_basic{
+border-top: 5px solid #f9d423;
+}
+
+.basic_icon{
+	height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 6px solid #f9d423;
+  margin: 36px 0 0 64px;
+  }
+.fa-anchor {
+	color: #f9d423;
+	margin: 16px;
+}
+.basic_top{
+ height: 143px;
+ border-bottom: 0.5px solid grey;
+ width: 200px;
+ margin: auto;
+}
+.basic_pad{
+	height: 132px;
+	border-top: 0.5px solid grey;
+	width: 200px;
+ margin: auto;
+}
+.basic_mid{
+	flex-grow: 1;
+}
+.b {
 	border: 1px solid red;
-}*
+}
+
 /*</div>
 			<div class="butt">
 				<div class="butt1">
