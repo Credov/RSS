@@ -26,3 +26,19 @@ src: url("Lato-Regular.ttf") format("truetype");
 font-style: normal; 
 font-weight: normal; 
 }
+@font-face {
+font-family: "Lato-Bold"; 
+src: url("Lato-Bold.ttf") format("truetype"); 
+font-style: normal;
+}
+@font-face {
+font-family: "Lato-Light"; 
+src: url("Lato-Light.ttf") format("truetype"); 
+font-style: normal;
+}
+@font-face {
+font-family: "Lato-Semibold"; 
+src: url("Lato-Semibold.ttf") format("truetype"); 
+font-style: normal; 
+}
+

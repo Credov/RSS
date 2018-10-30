@@ -242,7 +242,7 @@ h1 {
 }
 
 .packages {
-	height: 765px;
+	margin-bottom: 385px;
 	background: url(../img/PackagesBG.jpg) no-repeat center top / cover;
 	height: 380px;
 }
@@ -259,38 +259,224 @@ width: 21.2%;
 background-color: #fff;
 flex-direction: column;
 justify-content: space-between;
+box-shadow: 0px 0px 5px whitesmoke;
 }
-
+                              /*start basic*/
 .packages_basic{
 border-top: 5px solid #f9d423;
 }
 
-.basic_icon{
-	height: 50px;
-  width: 50px;
+.icon {
+  display: inline-block;
+  width: 55px;
+  height: 55px;
+  position: relative;
   border-radius: 50%;
-  border: 6px solid #f9d423;
-  margin: 36px 0 0 64px;
-  }
+  margin: 36px 0 0 69px;
+}
+
+.icon:after {
+  border-radius: 50%;
+  display: block;
+  content: "";
+  background: #fff;
+  position: absolute;
+  left: 6px;
+  top: 6px;
+  height: 43px;
+  width: 43px;
+}
+
+.p1 {
+  background-image: linear-gradient(0deg, #fff 50%, transparent 50%),
+                    linear-gradient(90deg, #fff 50%, #f9d423 50%);
+}
 .fa-anchor {
 	color: #f9d423;
-	margin: 16px;
+	margin: 56px 88px;
+	position: absolute;
 }
-.basic_top{
+.top{
  height: 143px;
  border-bottom: 0.5px solid grey;
  width: 200px;
  margin: auto;
+ flex-direction: column;
 }
-.basic_pad{
+.basic_name{
+	margin: 16px 0px 0px 38px;
+	text-transform: uppercase;
+	font-family: "Lato-Bold";
+	font-size: 16px;
+}
+.mid {
+	flex-grow: 1;
+	width: 200px;
+	margin: 7px auto;
+	line-height: 39px;
+	justify-content: space-between;
+}
+.mid_text {
+	font-family: "Lato-Light";
+	font-size: 16px;
+	color: #b9b9b9;
+}
+.basic_mid_num {
+	text-align: right;
+	color: #f9d423;
+	font-family: "Lato-Semibold";
+}
+.bot {
 	height: 132px;
 	border-top: 0.5px solid grey;
 	width: 200px;
- margin: auto;
+  margin: 2px auto;
+  flex-direction: column;
+  text-align: center;
 }
-.basic_mid{
-	flex-grow: 1;
+.basic_bot_top {
+	height: 40%;
+  width: 105px;
+  border-bottom: 3px solid #f9d423;
+  margin: 11px 0px 0px 49px;
 }
+
+.money {
+	font-family: "Lato-Heavy";
+	font-size: 28px;
+}
+.dollar {
+	font-family: "Lato-Heavy";
+	font-size: 17px;
+	vertical-align: super;
+}
+
+.text {
+	color: #8d8d8d;
+	font-size: 13px;
+	font-family: "Lato-Regular";
+}
+
+.bot_bot{
+	height: 50%;
+	font-size: 16px;
+	font-family: "Lato-Bold";
+	text-transform: uppercase;
+	padding-top: 15px;
+}
+.bot_bot a{
+	text-decoration: none;
+	color: black;
+}
+                             
+.fa-star-half-alt {
+	color: #7f8c8d;
+	margin: 56px 88px;
+	position: absolute;
+}
+
+.packages_normal{
+	border-top: 5px solid #7f8c8d;
+}       
+
+.normal_bot_top{
+	height: 40%;
+  width: 105px;
+  border-bottom: 3px solid #7f8c8d;
+  margin: 11px 0px 0px 49px;
+}
+
+.normal_mid_num{
+	text-align: right;
+	color: #7f8c8d;
+	font-family: "Lato-Semibold";
+}
+
+.p2 {
+  background-image: linear-gradient(90deg, #fff 50%, transparent 50%),
+                    linear-gradient(90deg, #fff 50%, #7f8c8d 50%);
+}
+
+.normal_name{
+	margin: 16px 0px 0px 25px;
+	text-transform: uppercase;
+	font-family: "Lato-Bold";
+	font-size: 16px;
+}
+
+/**/
+                             
+.fa-star {
+	color: #f85f40;
+	margin: 56px 88px;
+	position: absolute;
+}
+
+.packages_big{
+	border-top: 5px solid #f85f40;
+}       
+
+.big_bot_top{
+	height: 40%;
+  width: 105px;
+  border-bottom: 3px solid #f85f40;
+  margin: 11px 0px 0px 49px;
+}
+
+.big_mid_num{
+	text-align: right;
+	color: #f85f40;
+	font-family: "Lato-Semibold";
+}
+
+.p3 {
+  background-image: linear-gradient(180deg, transparent 50%, #f85f40 50%),
+                    linear-gradient(90deg, #fff 50%, #f85f40 50%);
+}
+
+.big_name{
+	margin: 16px 0px 0px 45px;
+	text-transform: uppercase;
+	font-family: "Lato-Bold";
+	font-size: 16px;
+}
+
+.fa-gem {
+	color: #1abc9c;
+	margin: 56px 88px;
+	position: absolute;
+}
+
+.packages_biggest{
+	border-top: 5px solid #1abc9c;
+}       
+
+.biggest_bot_top{
+	height: 40%;
+  width: 105px;
+  border-bottom: 3px solid #1abc9c;
+  margin: 11px 0px 0px 49px;
+}
+
+.biggest_mid_num{
+	text-align: right;
+	color: #1abc9c;
+	font-family: "Lato-Semibold";
+}
+
+.p4 {
+  background-image: linear-gradient(180deg, transparent 50%, #1abc9c 50%),
+                    linear-gradient(90deg, #fff 50%, #1abc9c 50%);
+}
+
+.biggest_name{
+	margin: 16px 0px 0px 45px;
+	text-transform: uppercase;
+	font-family: "Lato-Bold";
+	font-size: 16px;
+}
+
+
 .b {
 	border: 1px solid red;
 }
@@ -303,3 +489,6 @@ border-top: 5px solid #f9d423;
 				<div class="butt2">
 					<a href="#">see the menu</a>
 				</div> */
+
+
+
