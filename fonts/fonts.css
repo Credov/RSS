@@ -41,4 +41,14 @@ font-family: "Lato-Semibold";
 src: url("Lato-Semibold.ttf") format("truetype"); 
 font-style: normal; 
 }
+@font-face {
+font-family: "Lato-Black"; 
+src: url("Lato-Black.ttf") format("truetype"); 
+font-style: normal; 
+}
+@font-face {
+font-family: "Lato-Thin"; 
+src: url("Lato-Thin.ttf") format("truetype"); 
+font-style: normal; 
+}
 
